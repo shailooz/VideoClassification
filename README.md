@@ -20,7 +20,8 @@ Note :
 The same dataset is used for all three models
 
 #Requirements
-*platform: linux-64
+
+platform: linux-64
 
 numpy=1.19.0=pypi_0
 numpydoc=0.9.1=py_0
@@ -37,7 +38,6 @@ cvlib=0.2.5=pypi_0
 json5=0.8.5=py_0
 jsonschema=3.0.2=py37_0
 pandas=0.25.1=py37he6710b0_0
-python=3.7.4=h265db76_1
 youtube-dl=2020.7.28=pypi_0
 
 *run setup.py for installing requirements automatically
