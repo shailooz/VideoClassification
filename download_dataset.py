@@ -27,7 +27,7 @@ for youtube_id in data:
 	vid_loc = output_path + '/' + str(type)
 	if not os.path.exists(vid_loc):
 		os.mkdir(vid_loc)
-	os.system('youtube-dl -o ' + vid_loc + '/' + youtube_id + '.mp4' + ' -f best ' + url)
+	os.system('youtube-dl -o --ignore-errors ' + vid_loc + '/' + youtube_id + '.mp4' + ' -f best ' + url)
 	# break
 
 	# To save disk space, you could download the best format available
