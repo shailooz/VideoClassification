@@ -3,7 +3,7 @@ This repo have three deep learning solutions for general video classification pr
 
 1. A 3D CNN approch
 2. A Transfer Learning + LSTM approch
-3. A CNN + Time distributed LSTM approch
+3. A  Time distributed CNN + LSTM approch
             
 The folder 'dataset' won't be there in repo, so create one at your working directory
 The programs are maintaned as python notebook
